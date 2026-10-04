@@ -1,0 +1,21 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyC_sERekCFFEr4ld5ufhHy4ji7s5EWs-KM",
+  authDomain: "laundryonline-4aebf.firebaseapp.com",
+  projectId: "laundryonline-4aebf",
+  storageBucket: "laundryonline-4aebf.firebasestorage.app",
+  messagingSenderId: "665462312667",
+  appId: "1:665462312667:web:e8af2df327669f5af0c6fe",
+  measurementId: "G-ST2GYHMD5G"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
